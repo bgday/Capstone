@@ -1,0 +1,98 @@
+header,nav,main,footer {
+    max-width: 60rem;
+    margin: auto;
+}
+header {
+  padding-bottom:0;
+}
+div.hamMenu {
+    display:none;
+}
+//nav
+
+#navWrapper {
+  margin-bottom:2.5rem;
+    nav {
+      position:static;
+      ul.menu {
+        background-color: $secondaryColor;
+        display: flex;
+        justify-content: flex-end;
+        position:static;
+        margin:0;
+        &.open {
+          display: flex;
+        }
+        li {
+          text-align: center;
+          border:none;
+          width:auto;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+
+  //main
+
+  #mainWrapper {
+  main {
+    div.heroWrapper {
+      position: relative;
+      margin: 1.15rem 0;
+      video {
+        width: 100%;
+        height: auto;
+      }
+      p {
+        right: 2%;
+        top: 65%;
+        bottom: 6%;
+        left: 2%;
+        font-size: 2rem;
+        font-weight: 620;
+      }
+      div.bar {
+        height: 5px;
+        right: 30%;
+        left: 3%;
+        bottom: 5.35%;
+      }
+    }
+    div#cards {
+      gap: 1.5rem;
+      section {
+        width: 23%;
+      }
+    }
+
+
+    div#clients {
+      display: flex;
+      flex-wrap: wrap;
+      padding: $gutter;
+      margin: 1rem 0;
+      section {
+        padding: 1.5rem;
+        width: 16.5%;
+        align-content: center;
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+
+//footer
+#footerWrapper {
+  footer {
+    div.locations {
+      gap:0;
+      section {
+        width:33%;
+      }
+    }
+  }
+}

@@ -1,0 +1,81 @@
+header {
+  padding: 2rem $gutter;
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+//nav
+
+#navWrapper {
+    nav {
+      ul.menu {
+        left: 35rem;
+      }
+    }
+  }
+
+//main
+#mainWrapper {
+    main {
+        h2 {
+            margin:0;
+        }
+      div.heroWrapper {
+        p {
+          right: 87%;
+          top: 6%;
+          bottom: 6%;
+          left: 2%;
+        }
+        div.bar {
+          right: 89%;
+          left: 3%;
+          bottom: 5.5%;
+        }
+      }
+      div#cards {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        gap:2rem;
+        row-gap: 1rem;
+        section {
+            width:calc(50% - 1rem);
+        }
+      }
+      div#clients {
+        padding: $gutter;
+        margin: 1rem 0;
+        justify-content: center;
+        section {
+          padding: 1.5rem;
+          width: 25%;
+          align-content: center;
+          img {
+            width: 100%;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+
+  //footer
+
+  #footerWrapper {
+    footer {
+      div.locations {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        gap:5rem;
+        padding:1.5rem $gutter;
+        align-content: center;
+        section {
+          width:40%;
+        }
+      }
+    }
+  }

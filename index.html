@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Capstone Project | Brian Day Dev</title>
+    <meta name="description" content="Brian Day's capstone project" />
+    <meta name="author" content="Brian Day" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/styles.min.css" rel="stylesheet" />
+
+    <!--fav icon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
+  </head>
+  <body>
+    <div id="headerWrapper">
+      <header>
+        <img
+          src="/images/logo1x.webp"
+          alt="logo"
+          width="65"
+          height="65"
+          srcset="
+            ./images/logo1x.webp 1x,
+            ./images/logo2x.webp 2x,
+            ./images/logo3x.webp 3x
+          "
+        />
+        <h1>Fifth Floor Designs</h1>
+
+        <div class="hamMenu">&#9776;</div>
+      </header>
+    </div>
+
+    <div id="navWrapper">
+      <nav>
+        <ul class="menu">
+          <li><a href="#">Clients</a></li>
+          <li class="active"><a href="#">About</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div id="mainWrapper">
+      <main>
+        <h2>About You</h2>
+        <h5>We Help Show Your Best Stuff!</h5>
+
+        <div class="heroWrapper">
+          <div class="bar"></div>
+          <video src="./media/herovideo.mp4" autoplay loop></video>
+          <p>Your award winning website design and branding partner.</p>
+        </div>
+        <!--end heroWrapper-->
+
+        <h3>How We Can Help</h3>
+        <div id="cards">
+          <section>
+            <h4><span>D</span>ESIGN</h4>
+            <img src="./images/help-design.webp" alt="Branding meeting" />
+            <ul>
+              <li>Website Design</li>
+              <li>UI/UX Design</li>
+              <li>Mobile App Design</li>
+              <li>Animation</li>
+              <li>Graphic & Illustration</li>
+            </ul>
+          </section>
+          <section>
+            <h4><span>B</span>RANDING</h4>
+            <img src="./images/help-branding.webp" alt="Branding meeting" />
+            <ul>
+              <li>Visual Identity</li>
+              <li>Brand Strategy</li>
+              <li>Logo Design</li>
+              <li>Iconography</li>
+              <li>Packaging Design</li>
+            </ul>
+          </section>
+          <section>
+            <h4><span>D</span>EVELOPMENT</h4>
+            <img src="./images/help-development.webp" alt="Developers" />
+            <ul>
+              <li>AWS Development</li>
+              <li>Digital Ocean Development</li>
+              <li>Custom PHP Development</li>
+              <li>Application Development</li>
+              <li>GitHub And Netlify</li>
+            </ul>
+          </section>
+          <section>
+            <h4><span>M</span>ARKETING</h4>
+            <img src="./images/help-marketing.webp" alt="Marketing man" />
+            <ul>
+              <li>Marketing</li>
+              <li>Digital Strategy</li>
+              <li>Marketing Strategy</li>
+              <li>SEO Strategy</li>
+              <li>Google Hacking</li>
+            </ul>
+          </section>
+        </div>
+        <!--end cards-->
+
+        <h3>Clients Who Trust Us</h3>
+        <div id="clients">
+          <section><img src="./images/client-A.webp" alt="3M" /></section>
+          <section><img src="./images/client-B.webp" alt="Cisco" /></section>
+          <section><img src="./images/client-C.webp" alt="Google" /></section>
+          <section><img src="./images/client-D.webp" alt="NBC" /></section>
+          <section><img src="./images/client-E.webp" alt="Chanel" /></section>
+          <section>
+            <img src="./images/client-F.webp" alt="Microsoft" />
+          </section>
+        </div>
+        <!--end clients-->
+      </main>
+    </div>
+
+    <div id="footerWrapper">
+      <footer>
+        <div id="tel">
+          <a href="tel:+18005551357">1-800-555-1357</a>
+        </div>
+        <div class="locations">
+          <section>
+            <p>Fifth Floor Designs</p>
+            <address>
+              900 Spectrum West Dr<br />Suite 903<br />Irvine, CA 92681
+            </address>
+          </section>
+          <section>
+            <p>Fifth Floor Designs</p>
+            <address>
+              29 East Infinity Loop<br />Suite 100<br />Albany, NY 42158
+            </address>
+          </section>
+          <section>
+            <p>Fifth Floor Designs</p>
+            <address>
+              9865 Westminister St<br />Suite 4<br />Houston, TX 54545
+            </address>
+          </section>
+        </div>
+        <p>&copy; <span id="year"></span> &bull; Brian Day</p>
+      </footer>
+    </div>
+
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
