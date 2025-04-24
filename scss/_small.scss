@@ -49,10 +49,10 @@ div.hamMenu {
   place-items: center;
   text-align: center;
   grid-template-rows: 1fr;
+  cursor: pointer;
 }
 #navWrapper {
   nav {
-    display: relative;
     ul.menu {
       background-color: $navColor;
       position: absolute;
