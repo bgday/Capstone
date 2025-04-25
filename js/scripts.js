@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
     hamMenu.classList.toggle('open');
     
     if (hamMenu.classList.contains('open')) {
-      hamMenu.innerHTML = '&times;';
+      hamMenu.innerHTML = '✖';
     } else {
       hamMenu.innerHTML = '&#9776;';
     }

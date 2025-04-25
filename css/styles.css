@@ -359,10 +359,6 @@ div.hamMenu {
   grid-template-rows: 1fr;
   cursor: pointer;
 }
-div.hamMenu.open {
-  font-size: 2.5rem;
-}
-
 #navWrapper nav ul.menu {
   background-color: #fafafa;
   position: absolute;
