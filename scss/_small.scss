@@ -50,6 +50,9 @@ div.hamMenu {
   text-align: center;
   grid-template-rows: 1fr;
   cursor: pointer;
+  &.open {
+    font-size:2.5rem;
+  }
 }
 #navWrapper {
   nav {
@@ -219,7 +222,7 @@ div.hamMenu {
         color: $secondaryColor;
         font-size: 2.2rem;
         display: inline-block;
-        width:300px;
+        width:400px;
         margin:auto;
         padding: 1.5rem;
         display: block;
@@ -235,7 +238,7 @@ div.hamMenu {
       padding: 2.5rem;
     }
     div.locations {
-      border-bottom: 1px dashed #cecece;
+      border-bottom: 1px dashed #bfbfbf;
       display: flex;
       flex-direction: column;
       gap: 2rem;

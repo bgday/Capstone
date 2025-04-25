@@ -359,6 +359,9 @@ div.hamMenu {
   grid-template-rows: 1fr;
   cursor: pointer;
 }
+div.hamMenu.open {
+  font-size: 2.5rem;
+}
 
 #navWrapper nav ul.menu {
   background-color: #fafafa;
@@ -517,7 +520,7 @@ div.hamMenu {
   color: white;
   font-size: 2.2rem;
   display: inline-block;
-  width: 300px;
+  width: 400px;
   margin: auto;
   padding: 1.5rem;
   display: block;
@@ -532,7 +535,7 @@ div.hamMenu {
   padding: 2.5rem;
 }
 #footerWrapper footer div.locations {
-  border-bottom: 1px dashed #cecece;
+  border-bottom: 1px dashed #bfbfbf;
   display: flex;
   flex-direction: column;
   gap: 2rem;
